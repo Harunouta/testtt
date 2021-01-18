@@ -1,0 +1,45 @@
+<!DOCUTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+		<title>test</title>
+
+</head>
+<body>
+	<script type="text/javascript" src="js.js"></script>
+		
+	<p>テスト</p>
+	<input type="text" id="input" value="">
+	<input type="button" value="分割" id="button">
+	<input type=reset value="クリア" id="clear">
+		<div class="error" id ="error"style="display: none;"></div>
+	<p>こんにちは</p>
+	<input type="radio" name="type" value="kisoku" id="kisoku">これは
+	<input type="radio" name="type" value="pho" id="pho">テスト
+	<input type="radio" name="type" value="sur" id="sur">テスト
+
+	<br>
+	<br>
+		<p>「読みありCRF」または「読みなしCRF」選んで、強調したい部分を選んでください。<br>(以下の強調は「規則」を選ぶと何も表示されません。)</p>
+	
+	<div class="word" id ="word" style="display: none;">
+	</div>
+	<br>
+	<input type=submit value="実行" id ="do" style="display: none;">
+	
+	
+	<div class="result" id ="result" style="display: none;">
+	<p>結果(accent:アクセント核の位置、平板型なら0。phonetics:カタカナ表記。surface:表層形。)</p>
+			<div class="kotae" id ="kotae" style="display: none;">
+			</div>
+			<br>
+	<input type=reset value="クリア" id="clear2">
+	</div>
+		<br>
+	<div id="copyright">
+
+copyright (c) 2021 Eimi Aoyagi
+
+</div>
+</body>
+</html>
